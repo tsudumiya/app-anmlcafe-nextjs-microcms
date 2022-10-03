@@ -1,7 +1,8 @@
-# React(Next.js)+microCMS+vercelでカフェサイト
+# React(Next.js)+microCMS+Vercel+Tailwindでカフェサイト
 
 https://app-anmlcafe-nextjs-microcms.vercel.app/
 
 ## memo
-- GithubにpushするかmicroCMSの更新でデプロイ
-- Vercelに登録してデプロイするまでが早くて驚いた。環境変数とwebhookの登録も簡単だった。
+- masterブランチにpushするかmicroCMSの更新でデプロイされる。
+- Vercelに登録してデプロイするまでが早かった。
+- 環境変数とwebhookの登録も簡単だった。
