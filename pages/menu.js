@@ -33,10 +33,10 @@ Menu.getLayout = function getLayout(page) {
     return <Layout>{page}</Layout>;
 };
 export const getStaticProps = async () => {
-    const data = await client.get({ endpoint: 'menu' });
+    const menu = await client.get({ endpoint: 'menu', queries: { offset: 0, limit: 3 } });
     return {
         props: {
-            menu: data.contents,
+            menu: menu.contents,
         },
     };
 };

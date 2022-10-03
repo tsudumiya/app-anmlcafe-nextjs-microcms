@@ -36,10 +36,10 @@ Information.getLayout = function getLayout(page) {
     return <Layout>{page}</Layout>;
 };
 export const getStaticProps = async () => {
-    const data = await client.get({ endpoint: 'information' });
+    const information = await client.get({ endpoint: 'information' });
     return {
         props: {
-            information: data.contents,
+            information: information.contents,
         },
     };
 };
