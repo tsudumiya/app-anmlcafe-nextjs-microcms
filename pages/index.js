@@ -21,7 +21,7 @@ export default function Home({ menu, information }) {
 
                 <div className="w-full md:max-w-3xl mx-auto pt-20 px-6 md:px-0">
                     <div className="mb-20">
-                        <BaseHeading>Anml Cafeのおすすめメニュー</BaseHeading>
+                        <BaseHeading>Anml Cafeのおすすめメニュー2</BaseHeading>
 
                         <div className="md:flex md:flex-wrap md:justify-between mb-16">
                             {menu.map((menu) => {
